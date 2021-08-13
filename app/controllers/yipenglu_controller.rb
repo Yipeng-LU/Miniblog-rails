@@ -1,5 +1,5 @@
 class YipengluController < ApplicationController
-    http_basic_authenticate_with name:'yipenglu',password:'14159265',only:[:edit,:destroy]
+    http_basic_authenticate_with name:'yipenglu',password:'123456',only:[:edit,:destroy]
     def index
         @datas=Yipeng.all
     end
